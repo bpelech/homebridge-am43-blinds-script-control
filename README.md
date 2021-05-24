@@ -1,6 +1,9 @@
 # homebridge-am43-blinds-script-control
 Controlling am43 blinds motor via script for Homebridge
 
+**Why would you want this:**
+In my case I have a very big window and my am43 blinds motor won't go full down (or up). It will automatically stops after 5 minutes of spinnign. Every time. And it takes almost 18 minutes to fully open or close blinds on my window.
+This combination of HB plugins and script can overcome this 5 minutes limitation. Script will periodically checks the current position and if the blinds are not in the desired position it will call curl command to control the blinds.
 
 
 **Prerequisities:**
