@@ -28,7 +28,7 @@ chmod 755 *.sh
 
 ![image](https://user-images.githubusercontent.com/31206422/114417061-910d0b80-9bb1-11eb-9dad-95bc4f2ee043.png)
 
-5. Setup the shell-switch plugin (update/set this to your Config.js):
+4. Setup the shell-switch plugin (update/set this to your Config.js):
 ```
 {
             "accessory": "ShellSwitch",
@@ -38,7 +38,7 @@ chmod 755 *.sh
  }
 ```
 
-6. Save config and restart HB
-7. You should have a button in the the Home app that will call blinds_up.sh when you turn it on and blinds_down.sh when you turin it off:
+5. Save config and restart HB
+6. You should have a button in the the Home app that will call blinds_up.sh when you turn it on and blinds_down.sh when you turin it off:
 
 ![IMG_F7010545E6DA-1](https://user-images.githubusercontent.com/31206422/114418583-f0b7e680-9bb2-11eb-98ff-b9ac6cccbd49.jpeg)
