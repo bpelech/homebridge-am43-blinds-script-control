@@ -4,7 +4,6 @@ CURRENT_POSITION_iid=9
 TARGET_POSITION_iid=11
 IP=192.168.0.105
 PORT=51581
-KEY=860-30-464
 TARGET_POSITION=$1
 TARGET_POSITION_offset=$TARGET_POSITION
 CURRENT_POSITION=`curl -s -X GET http://$IP:$PORT/characteristics?id=$aid.$CURRENT_POSITION_iid | jq '..|.value?|select(. != null)'`
