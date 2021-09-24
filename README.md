@@ -16,17 +16,17 @@ This combination of HB plugins and script can overcome this 5 minutes limitation
 
 
 **Installation/usage:**
-1. Put all three .sh scripts into the folder: /var/lib/homebridge/control (if you put them elsewhere, you'll need to update the directory everywhere accordingly) and than run `chmod 755 script_name.sh` for all of them:
+1. Put all three .sh scripts into the folder: /var/lib/homebridge/control and than run `chmod 755 script_name.sh` for all of them:
 ```
 cd /var/lib/homebridge/control
 git clone https://github.com/bpelech/homebridge-am43-blinds-script-control.git
 cd homebridge-am43-blinds-script-control
 chmod 755 *.sh
 ```
-2. Update change_blinds.sh with your own Homebridge settings (aid, IP, PORT, KEY)
+2. Update change_blinds.sh with your own Homebridge settings (aid, IP, PORT)
 3. To find out aid, click the wheel in the accessory page in the HB UI and second from the bottom you'll see aid number for the blinds:
+![image](https://user-images.githubusercontent.com/31206422/134678526-0c486c6d-b9e9-41f1-826b-726a21b33eae.png)
 
-![image](https://user-images.githubusercontent.com/31206422/114417061-910d0b80-9bb1-11eb-9dad-95bc4f2ee043.png)
 
 4. Setup the shell-switch plugin (update/set this to your Config.js):
 ```
